@@ -56,15 +56,55 @@
 		677D08D224BED70C00C09884 /* Donald Duck */ = {
 			isa = PBXGroup;
 			children = (
-				677D08D324BED70C00C09884 /* AppDelegate.swift */,
-				677D08D524BED70C00C09884 /* SceneDelegate.swift */,
-				677D08D724BED70C00C09884 /* ViewController.swift */,
-				677D08D924BED70C00C09884 /* Main.storyboard */,
+				677D08EB24BED77200C09884 /* Storyboard */,
+				677D08E924BED75E00C09884 /* Model */,
+				677D08EA24BED76600C09884 /* View */,
+				677D08E824BED74B00C09884 /* Controller */,
+				677D08E724BED73E00C09884 /* Delegate */,
 				677D08DC24BED70E00C09884 /* Assets.xcassets */,
-				677D08DE24BED70E00C09884 /* LaunchScreen.storyboard */,
 				677D08E124BED70F00C09884 /* Info.plist */,
 			);
 			path = "Donald Duck";
+			sourceTree = "<group>";
+		};
+		677D08E724BED73E00C09884 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				677D08D324BED70C00C09884 /* AppDelegate.swift */,
+				677D08D524BED70C00C09884 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		677D08E824BED74B00C09884 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				677D08D724BED70C00C09884 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		677D08E924BED75E00C09884 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		677D08EA24BED76600C09884 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		677D08EB24BED77200C09884 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				677D08D924BED70C00C09884 /* Main.storyboard */,
+				677D08DE24BED70E00C09884 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +327,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8S66U8Q7SC;
 				INFOPLIST_FILE = "Donald Duck/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +346,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8S66U8Q7SC;
 				INFOPLIST_FILE = "Donald Duck/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
